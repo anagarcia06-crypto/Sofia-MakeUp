@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skills & Techniques — Sofía García</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SOFIA GARCIA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills & Techniques</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="fw-bold reveal">Habilidades y Técnicas</h3>
+        <p class="text-muted mb-0 small reveal">Hover or tap a card for details</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="card skill-card p-3 h-100">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="skill-icon border"><i class="fa-solid fa-highlighter"></i></div>
+              <div>
+                <h5 class="mb-1">Contorno e Iluminación</h5>
+                <p class="small text-muted">Visajismo de rostro audiovisual y eventos.</p>
+                <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#skillModal1">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card skill-card p-3 h-100">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="skill-icon border"><i class="fa-solid fa-gem"></i></div>
+              <div>
+                <h5 class="mb-1">Maquillaje de Novias (Bridal Makeup)</h5>
+                <p class="small text-muted">Looks románticos y Glam.</p>
+                <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#skillModal2">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card skill-card p-3 h-100">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="skill-icon border"><i class="fa-solid fa-camera-retro"></i></div>
+              <div>
+                <h5 class="mb-1">Editorial y Pasarela</h5>
+                <p class="small text-muted">Looks impactantes para sesiones de fotos y desfiles de moda.</p>
+                <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#skillModal3">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card skill-card p-3 h-100">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="skill-icon border"><i class="fa-solid fa-palette"></i></div>
+              <div>
+                <h5 class="mb-1">Corrección de Color</h5>
+                <p class="small text-muted">Neutralización y corrección de color para un tono de piel perfecto.</p>
+                <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#skillModal4">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card skill-card p-3 h-100">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="skill-icon border"><i class="fa-solid fa-hand-sparkles"></i></div>
+              <div>
+                <h5 class="mb-1">Efectos Especiales (EFX)</h5>
+                <p class="small text-muted">Diseño de protesis para eventos temáticos.</p>
+                <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#skillModal5">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="card skill-card p-3 h-100">
+            <div class="d-flex gap-3 align-items-start">
+              <div class="skill-icon border"><i class="fa-solid fa-theater-masks"></i></div>
+              <div>
+                <h5 class="mb-1">Maquillaje Artistico</h5>
+                <p class="small text-muted">Contornos creativos y personificación.</p>
+                <button class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#skillModal6">Más info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modals -->
+      <div class="modal fade" id="skillModal1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Contorno e Iluminación</h5><button class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Modelado facial diseñado para esculpir y resaltar tus rasgos de manera natural.
+              Logra un acabado
+              sofisticado y radiante, con productos de alta calidad que garantizan un efecto duradero y perfecto. Ideal
+              para cualquier
+              ocasión especial o para un día de belleza. ¡Resalta lo mejor de ti con un toque profesional!</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="skillModal2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Maquillaje de Novias (Bridal Makeup)</h5><button class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">¡Haz de tu día especial un momento inolvidable con nuestro exclusivo paquete de
+              Maquillaje de Novia!
+              Diseñado para realzar tu belleza natural, este servicio incluye un maquillaje impecable y duradero,
+              adaptado a tu estilo
+              único. Usamos productos de alta calidad, con un enfoque personalizado, para que te sientas radiante y
+              segura. Todo esto,
+              ¡a un precio accesible y con la atención que mereces! Disponible en todo Colombia. ¡Reserva tu cita y
+              deslumbra en tu gran día!</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="skillModal3" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Editorial y Pasarela</h5><button class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Creado para resaltar tu esencia con un acabado editorial y sofisticado. Este
+              servicio está
+              pensado para destacar en sesiones fotográficas, desfiles y eventos de alto impacto. Con técnicas avanzadas
+              y
+              productos de lujo, lograrás un maquillaje de impacto que resalta tu belleza única. ¡Sé el centro de todas
+              las
+              miradas con un estilo profesional!</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="skillModal4" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Corrección de Color</h5><button class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Logra una piel impecable con Corrección de Color. Diseñado para equilibrar
+              y neutralizar imperfecciones como rojeces, manchas o ojeras, este maquillaje te ofrece una cobertura
+              precisa y natural.
+              Utilizamos técnicas especializadas y productos de alta calidad para un acabado uniforme, luminoso y
+              duradero. Ideal
+              para una piel radiante y libre de imperfecciones. ¡Corrige y resalta tu belleza con un toque profesional!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="skillModal5" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Efectos Especiales (EFX)</h5><button class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Transforma tu look con nuestro Maquillaje de Efectos Especiales (EFX), perfecto
+              para sesiones fotográficas, Halloween, o cualquier evento que requiera un toque único y espectacular.
+              Desde cortes,
+              cicatrices y envejecimiento, hasta transformaciones fantásticas, te ofrecemos un maquillaje de alto
+              impacto que desafía
+              los límites de la creatividad. Utilizamos productos de calidad profesional para lograr efectos realistas y
+              sorprendentes.
+              ¡Haz que todos se queden boquiabiertos con un estilo atrevido y divertido!</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="skillModal6" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Maquillaje Artistico</h5><button class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Lleva el arte al rostro con nuestro Maquillaje Artístico. Perfecto para proyectos
+              creativos, sesiones fotográficas, performances o cualquier ocasión donde desees destacar con un diseño
+              único y audaz.
+              Usamos técnicas innovadoras y productos de alta calidad para crear looks vibrantes, llamativos y
+              totalmente personalizados.
+              ¡Haz de tu rostro una obra de arte, con un estilo profesional!</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container d-flex justify-content-between align-items-center">
+      <small class="text-muted">© Sofía García — All rights reserved</small>
+      <div class="d-flex gap-2">
+        <a class="text-muted" href="#">Terms</a>
+        <a class="text-muted" href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
