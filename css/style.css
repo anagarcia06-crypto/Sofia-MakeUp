@@ -288,12 +288,12 @@ footer{
 }
 
 /* The transform presets are applied by JS depending on index. Add responsive tweaks */
-@media (max-width:992px){
+/* @media (max-width:992px){
   .coverflow--hero .coverflow__item { width:420px; height:300px; }
   .coverflow--hero .coverflow__stage { height:360px; }
   .coverflow--portfolio .coverflow__item { width:300px; height:220px; }
   .coverflow--portfolio .coverflow__stage { height:260px; }
-}
+} */
 
 @media (max-width:576px){
   .coverflow__nav{ width:44px; height:44px; font-size:24px; }
@@ -303,27 +303,27 @@ footer{
 }
 
 /* hide overflowing decoration for very small screens */
-@media (max-width:420px){
+/* @media (max-width:420px){
   .coverflow__stage { height:auto; }
   .coverflow__item { position:relative; transform:none !important; opacity:1 !important; box-shadow:none; width:100%; height:auto; }
   .coverflow__nav{ display:none; }
   .coverflow__dots{ display:none; }
-}
+} */
 
 
-@media (max-width:768px){
+/* @media (max-width:768px){
   .hero{padding:2rem 0}
   .profile-photo{width:160px;height:160px}
-}
+} */
 
 /* small util */
-.text-muted-small{color:#6c6c6c;font-size:.95rem}
+/* .text-muted-small{color:#6c6c6c;font-size:.95rem} */
 
 
 /* ========== RESPONSIVE IMPROVEMENTS ========== */
 
 /* --- Hero Section --- */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .hero h1 {
     font-size: 2.2rem;
     text-align: center;
@@ -338,7 +338,7 @@ footer{
   .hero .col-md-6 {
     text-align: center;
   }
-}
+} */
 
 @media (max-width: 576px) {
   .hero {
@@ -353,7 +353,7 @@ footer{
 }
 
 /* --- About Section --- */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   #about .about-bg {
     padding: 1.2rem;
   }
@@ -364,7 +364,7 @@ footer{
     padding-left: 0;
     list-style: none;
   }
-}
+} */
 
 @media (max-width: 576px) {
   .profile-photo {
@@ -374,7 +374,7 @@ footer{
 }
 
 /* --- Skills Grid --- */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #skills .d-flex {
     flex-direction: column;
     text-align: center;
@@ -382,7 +382,7 @@ footer{
   #skills .skill-card {
     padding: 1.2rem;
   }
-}
+} */
 
 @media (max-width: 576px) {
   #skills h3 {
@@ -397,11 +397,11 @@ footer{
 }
 
 /* --- Contact Section --- */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #contact h3 {
     font-size: 1.6rem;
   }
-}
+} */
 
 @media (max-width: 576px) {
   .contact-icon {
@@ -421,7 +421,7 @@ footer{
 }
 
 /* --- General Layout Fixes --- */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .navbar-brand {
     font-size: 1.2rem;
   }
@@ -429,7 +429,7 @@ footer{
     text-align: center;
     padding: 0.8rem 0;
   }
-}
+} */
 
 @media (max-width: 576px) {
   body {
